@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Аккордеон (секции)</title>
+</head>
+<body>
+    <h1>Аккордеон</h1>
+    <button class="accordion">Секция 1</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, laudantium suscipit! Consequatur deserunt dolor et excepturi fuga id ipsum iste rerum sapiente, sit voluptatem voluptates. Mollitia quasi ratione reiciendis velit?</p>
+    </div>
+    <button class="accordion">Секция 2</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam, aliquid animi autem consectetur dignissimos explicabo harum minus optio quasi quia quo sit velit. Ad assumenda dolorem nulla porro voluptatem.</p>
+    </div>
+    <button class="accordion">Секция 3</button>
+    <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque aut, beatae doloremque earum itaque iure laboriosam minus nihil nobis perspiciatis possimus quae, quasi quibusdam quod ratione sequi vel. Nisi?</p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+               this.classList.toggle("active");
+               var panel = this.nextElementSibling;
+               if (panel.style.display === "block") {
+                   panel.style.display = "none";
+               } else {
+                   panel.style.display = "block";
+               }
+            });
+        }
+    </script>
+</body>
+</html>
