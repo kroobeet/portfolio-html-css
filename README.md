@@ -24,8 +24,8 @@ HTML5 and CSS3 sites portfolio and examples
 
 - 1*: горизонтальные вкладки теперь работают
 исправно. Были пропущены кавычки в строках 16,17,18
-у параметров с названиями городов
-Было: <code>London, Paris, Tokyo</code>
+у параметров с названиями городов <br>
+Было: <code>London, Paris, Tokyo</code><br>
 Стало: <code>'London', 'Paris', 'Tokyo'</code>
 <hr>
 
