@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Создайте макет столбца с помощью Flexbox */
+.row {
+    display: flex;
+}
+
+/* Левый столбец (меню) */
+.left {
+    flex: 35%;
+    padding: 15px 0;
+}
+
+.left h2 {
+    padding-left: 8px;
+}
+
+/* Правый столбец (содержимое страницы) */
+.right {
+    flex: 65%;
+    padding: 15px;
+}
+
+/* Стиль поля поиска */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #dddddd;
+}
+
+/* Стиль меню навигации внутри левой колонки */
+#myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#myMenu li a:hover {
+    background-color: #eeeeee;
+}
