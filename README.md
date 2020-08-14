@@ -2,7 +2,8 @@
 **HTML5 and CSS3 sites portfolio and examples**<br>
 <hr>
 
-##Задачи
+##Содержание:
+###Чек-лист
 ФВ - Финальная версия
 
 - [ ] МЕНЮ (ФВ 0.2)
