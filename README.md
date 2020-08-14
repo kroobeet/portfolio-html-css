@@ -11,9 +11,12 @@ HTML5 and CSS3 sites portfolio and examples<br>
 -
 <hr>
 
-- accordion
-- icon-menu
+13.08.2020
+- accordion 
+- icon-menu 
 - icon-panel
+
+14.08.2020
 - tabs:
     - title-tabs 
     - vertical
@@ -29,11 +32,13 @@ HTML5 and CSS3 sites portfolio and examples<br>
 Список изменений (1):
 -
 
+13.08.2020
 - tabs/index.html (horisontal tabs) (1*)
 
 Описания изменений (1):
 -
 
+13.08.2020
 - 1*: горизонтальные вкладки теперь работают
 исправно. Были пропущены кавычки в строках 16,17,18
 у параметров с названиями городов <br>
