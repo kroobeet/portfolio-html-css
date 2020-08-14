@@ -129,7 +129,7 @@ README.md
 #### Список примеров и элементов (14):
 
 ```- portfolio-html-css
-  - МЕНЮ (14)
+  - 1_МЕНЮ (14)
       - accordion
         - index.html
         - style.css
@@ -176,23 +176,23 @@ README.md
         - search-menu
           - index.html
           - style.css
-  - ИЗОБРАЖЕНИЯ (0)
+  - 2_IMAGES (0)
     - пусто
-  - КНОПКИ (0)
+  - 3_BUTTONS (0)
     - пусто
-  - ФОРМЫ (0)
+  - 4_FORMS (0)
     - пусто
-  - ФИЛЬТРЫ (0)
+  - 5_FILTERS (0)
     - пусто
-  - ТАБЛИЦЫ (0)
+  - 6_TABLES (0)
     - пусто
-  - ЕЩЁ (0)
+  - 7_YET (0)
     - пусто
-  - СЕТКА (0)
+  - 8_GRID (0)
     - пусто
-  - GOOGLE (0)
+  - 9_GOOGLE (0)
     - пусто
-  - КОНВЕРТОРЫ (0)
+  - 10_CONVERTORS (0)
     - пусто
 ```
 <hr>
