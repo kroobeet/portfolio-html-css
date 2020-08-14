@@ -2,8 +2,8 @@
 HTML5 and CSS3 sites portfolio and examples<br>
 <hr>
 
-Версия README: ver 0.1.7 <br>
-Версия проекта: ver 0.1.10
+Версия README: ver 0.1.8 <br>
+Версия проекта: ver 0.1.11
 <hr>
 
 Список портфолио (0):
@@ -39,7 +39,7 @@ HTML5 and CSS3 sites portfolio and examples<br>
 
 <hr>
 
-Список примеров и элементов (10):
+Список примеров и элементов (11):
 -
 
 - portfolio-html-css
@@ -77,6 +77,10 @@ HTML5 and CSS3 sites portfolio and examples<br>
         - tabs-if-hover
           - index.html
           - style.css
+      - navigation
+        - upper-panel-nav
+          - index.html
+          - style.html
   - ИЗОБРАЖЕНИЯ (0)
     - пусто
   - КНОПКИ (0)
