@@ -2,8 +2,11 @@
 **HTML5 and CSS3 sites portfolio and examples**<br>
 <hr>
 
-_README: ver 0.1.10 <br>
-Проект: ver 0.1.12_
+README      | Проект        |    Дата и время      |
+----------- | ------------- | -------------------- |
+ver 0.1.11  | ver 0.1.12    | 14.08.2020 17:23     |
+
+
 <hr>
 
 ## Список портфолио (0):
@@ -15,26 +18,23 @@ _README: ver 0.1.10 <br>
 
 ## Список изменений (1):
 
-13.08.2020
-- MENU/tabs/horizontal/index.html (1*)
+Код изменения | Версия проекта |             Файл                 |   Дата      |
+------------- | -------------- |             ----                 |   ----      |
+018            |     v0.1.8     | MENU/tabs/horizontal/index.html | 13.08.2020  |
 
 <hr>
 
 ## Описания изменений (1):
 
 
-13.08.2020
-- 1*: горизонтальные вкладки теперь работают
-исправно. Были пропущены кавычки в строках 16,17,18
-у параметров с названиями городов <br>
-
-Было:
+Код изменения 018:<br>
+- Было:
 ```html
 <button class="tablinks" onclick="openCity(event, London)">Лондон</button>
 <button class="tablinks" onclick="openCity(event, Paris)">Париж</button>
 <button class="tablinks" onclick="openCity(event, Tokyo)">Токио</button>
 ```
-Стало:
+- Стало:
 ```html
 <button class="tablinks" onclick="openCity(event, 'London')">Лондон</button>
 <button class="tablinks" onclick="openCity(event, 'Paris')">Париж</button>
