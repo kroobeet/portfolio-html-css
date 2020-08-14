@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Заголовки вкладок</title>
+</head>
+<body>
+    <h1>Заголовки вкладок</h1>
+    <p>Нажмите на кнопки внутри вкладочного меню:</p>
+
+    <div id="London" class="tabcontent">
+        <h1>Лондон</h1>
+        <p>Лондон - столица Англии</p>
+    </div>
+    <div id="Paris" class="tabcontent">
+        <h1>Париж</h1>
+        <p>Париж - столица Франции</p>
+    </div>
+    <div id="Tokyo" class="tabcontent">
+        <h1>Токио</h1>
+        <p>Токио - столица Японии</p>
+    </div>
+    <div id="Oslo" class="tabcontent">
+        <h1>Осло</h1>
+        <p>Oslo is the capital Norway</p>
+    </div>
+
+    <button class="tablink" onclick="openCity('London', this, '#f83b3b')" id="defaultOpen">Лондон</button>
+    <button class="tablink" onclick="openCity('Paris', this, '#418d41')">Париж</button>
+    <button class="tablink" onclick="openCity('Tokyo', this, '#4357a0')">Токио</button>
+    <button class="tablink" onclick="openCity('Oslo', this, '#eaa04a')">Осло</button>
+
+    <script>
+        function openCity(cityName, elmt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmt.style.backgroundColor = color;
+        }
+
+        // Получите элемент с id="defaultOpen" и нажмите на него
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
