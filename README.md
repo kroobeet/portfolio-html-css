@@ -1,6 +1,11 @@
 # portfolio-html-css
-HTML5 and CSS3 sites portfolio and examples
-Версия: ver 0.1
+HTML5 and CSS3 sites portfolio and examples<br>
+<hr>
+
+Список версий:
+-
+Версия: ver 0.1.4
+<hr>
 
 Список примеров и элементов (4):
 -
