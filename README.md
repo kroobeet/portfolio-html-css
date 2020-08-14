@@ -1,49 +1,59 @@
 # portfolio-html-css
-HTML5 and CSS3 sites portfolio and examples<br>
+**HTML5 and CSS3 sites portfolio and examples**<br>
 <hr>
 
-Версия README: ver 0.1.9 <br>
-Версия проекта: ver 0.1.12
+_README: ver 0.1.10 <br>
+Проект: ver 0.1.12_
 <hr>
 
-Список портфолио (0):
--
+## Список портфолио (0):
 
-- пока что пусто
+
+- **пока что пусто**
 
 <hr>
 
-Список изменений (1):
--
+## Список изменений (1):
+
 13.08.2020
-- tabs/horizontal/index.html (1*)
+- MENU/tabs/horizontal/index.html (1*)
 
 <hr>
 
-Описания изменений (1):
--
+## Описания изменений (1):
+
 
 13.08.2020
 - 1*: горизонтальные вкладки теперь работают
 исправно. Были пропущены кавычки в строках 16,17,18
 у параметров с названиями городов <br>
-Было: <code>London, Paris, Tokyo</code><br>
-Стало: <code>'London', 'Paris', 'Tokyo'</code>
+
+Было:
+```html
+<button class="tablinks" onclick="openCity(event, London)">Лондон</button>
+<button class="tablinks" onclick="openCity(event, Paris)">Париж</button>
+<button class="tablinks" onclick="openCity(event, Tokyo)">Токио</button>
+```
+Стало:
+```html
+<button class="tablinks" onclick="openCity(event, 'London')">Лондон</button>
+<button class="tablinks" onclick="openCity(event, 'Paris')">Париж</button>
+<button class="tablinks" onclick="openCity(event, 'Tokyo')">Токио</button>
+```
 
 <hr>
 
-Пояснения:
--
+### Пояснения:
+
 1. Вы можете забрать эти примеры и работы себе.
 На них не распространяется коммерческая лицензия
 
 <hr>
 
-Список примеров и элементов (12):
--
+#### Список примеров и элементов (12):
 
-- portfolio-html-css
-  - МЕНЮ (10)
+```- portfolio-html-css
+  - МЕНЮ (12)
       - accordion
         - index.html
         - style.css
@@ -102,5 +112,5 @@ HTML5 and CSS3 sites portfolio and examples<br>
     - пусто
   - КОНВЕРТОРЫ (0)
     - пусто
-    
+```
 <hr>
