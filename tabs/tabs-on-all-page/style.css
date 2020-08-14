@@ -1,0 +1,51 @@
+/* Установка высоты body и самого документа на 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Стиль вкладок ссылок */
+.tablink {
+    background-color: #555555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777777;
+}
+
+/* Стиль содержимого вкладки (и добавить высоту: 100% для полного содержимого страницы) */
+.tabcontent {
+    color: #ffffff;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+
+
+
+
+#Home {
+    background-color: #EA5050;
+}
+
+#News {
+    background-color: #418d41;
+}
+
+#Contact {
+    background-color: #4357a0;
+}
+
+#About {
+    background-color: #eaa04a;
+}

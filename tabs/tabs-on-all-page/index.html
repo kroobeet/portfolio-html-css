@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Вкладки на всю страницу</title>
+</head>
+<body>
+    <h1>Вкладки на всю страницу</h1>
+
+    <button class="tablink" onclick="openPage('Home', this, '#ea5050')">Главная</button>
+    <button id="defaultOpen" class="tablink" onclick="openPage('News', this, '#418d41')">Новости</button>
+    <button class="tablink" onclick="openPage('Contact', this, '#4357a0')">Контакт</button>
+    <button class="tablink" onclick="openPage('About', this, '#eaa04a')">О Нас</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Главная</h3>
+        <p>Дом там, где сердце..</p>
+    </div>
+    <div id="News" class="tabcontent">
+        <h3>Новости</h3>
+        <p>Какие новости в этот прекрасный день!</p>
+    </div>
+    <div id="Contact" class="tabcontent">
+        <h3>Контакт</h3>
+        <p>Свяжитесь с нами или заскочите на чашечку кофе</p>
+    </div>
+    <div id="About" class="tabcontent">
+        <h3>О Нас</h3>
+        <p>Кто мы такие и что делаем</p>
+    </div>
+
+    <script>
+        function openPage (pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        // Получите элемент с id="defaultOpen" и нажмите на него
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
