@@ -4,15 +4,22 @@ HTML5 and CSS3 sites portfolio and examples<br>
 
 Список версий:
 -
-Версия: ver 0.1.4
+Версия проекта: ver 0.1.5
 <hr>
 
 Список примеров и элементов (4):
 -
+<hr>
+
 - accordion
 - icon-menu
 - icon-panel
-- tabs
+- tabs:
+    - title-tabs 
+    - vertical
+    - horisontal
+
+<hr>
 
 Список портфолио (0):
 -
@@ -22,7 +29,7 @@ HTML5 and CSS3 sites portfolio and examples<br>
 Список изменений (1):
 -
 
-- tabs/index.html (1*)
+- tabs/index.html (horisontal tabs) (1*)
 
 Описания изменений (1):
 -
