@@ -2,8 +2,8 @@
 HTML5 and CSS3 sites portfolio and examples<br>
 <hr>
 
-Версия README: ver 0.1.4 <br>
-Версия проекта: ver 0.1.8
+Версия README: ver 0.1.5 <br>
+Версия проекта: ver 0.1.9
 <hr>
 
 Список портфолио (0):
@@ -39,39 +39,58 @@ HTML5 and CSS3 sites portfolio and examples<br>
 
 <hr>
 
-Список примеров и элементов (8):
+Список примеров и элементов (9):
 -
 
 - portfolio-html-css
-  - accordion
-    - index.html
-    - style.css
-  - icon-menu
-    - animate
-      - index.html
-      - style.css
-    - state
-      - index.html
-      - style.css
-  - icon-panel
-    - horizontal
-      - index.html
-      - style.css
-    - vertical
-      - index.html
-      - style.css
-  - tabs
-    - title-tabs
-      - index.html
-      - style.css
-    - vertical
-      - index.html
-      - style.css
-    - horizontal
-      - index.html
-      - style.css
-    - tabs-on-all-page
-      - index.html
-      - style.css
+  - МЕНЮ
+      - accordion
+        - index.html
+        - style.css
+      - icon-menu
+        - animate
+          - index.html
+          - style.css
+        - state
+          - index.html
+          - style.css
+      - icon-panel
+        - horizontal
+          - index.html
+          - style.css
+        - vertical
+          - index.html
+          - style.css
+      - tabs
+        - title-tabs
+          - index.html
+          - style.css
+        - vertical
+          - index.html
+          - style.css
+        - horizontal
+          - index.html
+          - style.css
+        - tabs-on-all-page
+          - index.html
+          - style.css
+  - ИЗОБРАЖЕНИЯ
+    - пусто
+  - КНОПКИ
+    - пусто
+  - ФОРМЫ
+    - пусто
+  - ФИЛЬТРЫ
+    - пусто
+  - ТАБЛИЦЫ
+    - пусто
+  - ЕЩЁ
+    - пусто
+  - СЕТКА
+    - пусто
+  - GOOGLE
+    - пусто
+  - КОНВЕРТОРЫ
+    - пусто
     
 <hr>
