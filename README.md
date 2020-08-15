@@ -2,7 +2,7 @@
 **HTML5 and CSS3 sites portfolio and examples**<br>
 <hr>
 
-##Содержание:
+##Содержание:<br>
 ###Чек-лист
 ФВ - Финальная версия
 
@@ -131,10 +131,10 @@ README.md
 
 <hr>
 
-#### Список примеров и элементов (14):
+#### Список примеров и элементов (15):
 
 ```- portfolio-html-css
-  - 1_МЕНЮ (14)
+  - 1_МЕНЮ (15)
       - accordion
         - index.html
         - style.css
@@ -179,6 +179,9 @@ README.md
           - index.html
           - style.css
         - search-menu
+          - index.html
+          - style.css
+        - search-string
           - index.html
           - style.css
   - 2_IMAGES (0)
