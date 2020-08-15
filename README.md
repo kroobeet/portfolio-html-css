@@ -142,10 +142,10 @@ README.md
 
 <hr>
 
-#### Список примеров и элементов (18):
+#### Список примеров и элементов (19):
 
 ```- portfolio-html-css
-  - 1_МЕНЮ (18)
+  - 1_МЕНЮ (19)
       - accordion
         - index.html
         - style.css
@@ -202,6 +202,9 @@ README.md
           - index.html
           - style.css
         - animate-side-nav
+          - index.html
+          - style.css
+        - responsive-side-nav
           - index.html
           - style.css
   - 2_IMAGES (0)
