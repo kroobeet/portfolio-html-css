@@ -131,7 +131,7 @@ README.md
 
 <hr>
 
-#### Список примеров и элементов (15):
+#### Список примеров и элементов (17):
 
 ```- portfolio-html-css
   - 1_МЕНЮ (15)
@@ -182,6 +182,12 @@ README.md
           - index.html
           - style.css
         - search-string
+          - index.html
+          - style.css
+        - side-panel-fix-height
+          - index.html
+          - style.css
+        - side-panel-auto-height
           - index.html
           - style.css
   - 2_IMAGES (0)
